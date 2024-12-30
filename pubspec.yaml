@@ -1,0 +1,57 @@
+name: eatopia
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^4.5.0
+  email_validator: ^2.1.17
+  firebase_core: ^2.9.0
+  flutter_signin_button: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_awesome_buttons: ^1.1.0
+  flutter_spinkit: ^5.1.0
+  google_maps_flutter: ^2.2.5
+  geolocator: ^9.0.2
+  permission_handler: ^10.2.0
+  search_map_place_updated: ^0.0.4
+  firebase_auth: ^4.4.0
+  google_sign_in: ^6.1.0
+  image_picker: ^0.8.7+2
+  firebase_storage: ^11.1.0
+  flutter_launcher_icons: ^0.13.0
+  flutter_cache_manager: ^3.3.0
+  cached_network_image: ^3.2.3
+  shimmer_animation: ^2.1.0+1
+  uuid: ^3.0.7
+  geocoding: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  image_path: "images/logo.png" 
+  android: true
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+  - family: Ubuntu
+    fonts:
+    - asset: fonts/Ubuntu/Ubuntu-Light.ttf
+  - family: Ubuntu-bold
+    fonts:
+    - asset: fonts/Ubuntu/Ubuntu-Bold.ttf
+  assets:
+    - images/
+
+
+
+
